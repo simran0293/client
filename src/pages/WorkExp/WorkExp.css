@@ -1,0 +1,45 @@
+.work{
+   
+    margin-top: 5rem;
+    margin-left: 170px;
+    background-color: #1387812a;
+    width: 83%;
+}
+.work{
+    padding: 100px 0px;
+}
+.work-exp h2{
+    font-weight: bold;
+    color: #1e1e2c;
+}
+.work-exp hr{
+    color: #138781;
+    width: 400px;
+    margin: 10px auto;
+} 
+.vertical-timeline-element-title{
+    color: #138781;
+}
+.vertical-timeline-element-subtitle{
+    color: #1e1e2c80;
+}
+
+
+/* ======DARk MODE===== */
+
+#dark .work-exp h2{
+    color: #f29f67;
+}
+
+/*****************/
+@media(max-width:600px)
+{
+    .work{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+    .work hr{
+        width:280px;
+    }
+}
